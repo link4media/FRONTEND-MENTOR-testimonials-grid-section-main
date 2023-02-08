@@ -19,6 +19,9 @@
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: var(--Light-grayish-blue);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 h1 {
     font-size: 1.5rem;
@@ -36,10 +39,6 @@ p {
 .container {
     width: 90%;
     max-width: 1300px;
-    height: 100vh;
-    margin: auto;
-    display: grid;
-    align-items: center;
 }
 .subcontainer {
     padding: 3rem 0;
